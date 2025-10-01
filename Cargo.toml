@@ -21,7 +21,7 @@ rustdoc-args = ["--cfg", "docsrs"]
 [dependencies]
 arbitrary = { default-features = false, optional = true, version = "1.0" }
 arrayvec = { default-features = false, version = "0.7" }
-borsh = { default-features = false, features = ["derive", "unstable__schema"], optional = true, version = "1.5" }
+borsh = { default-features = false, features = ["derive", "unstable__schema"], optional = true, version = "^1.5.1" }
 bytes = { default-features = false, optional = true, version = "1.0" }
 diesel = { default-features = false, optional = true, version = "2.2.3" }
 ndarray = { default-features = false, optional = true, version = "0.15.6" }
